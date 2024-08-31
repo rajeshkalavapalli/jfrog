@@ -1,0 +1,137 @@
+body {
+    margin: 0; 
+    /* width: 100%; */
+}
+
+/* Styling for logo container */
+.logo-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 30px; 
+    margin: 0;
+}
+
+/* Styling for logo */
+#logo {
+    color: #17576F;
+    margin: 0; 
+}
+
+/* Navigation styling */
+ul {
+    
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    align-items: center; 
+}
+
+/* Styling for list items */
+li a{
+    color: #68647B;
+    padding: 0 15px; 
+    margin: 0; 
+    text-align: center; 
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.curved-background {
+    height: 90vh;
+    background: #D14344; 
+    border-radius: 0px 30px 250% 105%; 
+    width: 100%;
+    position: relative; 
+    text-align: center;
+    top: 15%;
+    left: 0%;
+    box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.2);
+    color: #ffff; /* Text color */
+}
+
+.curved-background h1 {
+    color: white; /* Text color */
+    font-size: 3rem; 
+    transform: translateY(150px); 
+    margin-top: 10px; 
+}
+
+.positioned-text {
+    position: relative;
+    right: 13%;
+   
+    
+}
+
+.positioned-slog {
+    position: relative;
+    right: 13%;
+    transform: translateY(125px);
+    font-size: 20px;
+}
+
+/* Overlay image styling */
+.overlay-image {
+    position: absolute; 
+    top: 400px; 
+    left: 900px; 
+    width: 470px;
+    height: auto;
+}
+
+.div-2{
+    text-align: center;
+    margin-top: 40px;
+    color:#3D496B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.h3{
+    color: #E07270;
+}
+.div-pr{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D14344;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+.div-sv{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #17576F;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-wrap: wrap;
+    
+    
+        
+}
+
+.div-sv p {
+    margin: 5px; 
+    flex: 1 1 30%; 
+    max-width: 30%; 
+    text-align: justify; 
+    color: #D14344;
+   
+}
+/* .text-line{
+    text-align: center;
+} */
